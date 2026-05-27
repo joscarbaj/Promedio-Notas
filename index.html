@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Promedio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculadora de Promedio</h1>
+
+        <div class="card">
+            <label>Nota 1</label>
+            <input type="number" id="nota1" placeholder="Ingrese la primera nota">
+
+            <label>Nota 2</label>
+            <input type="number" id="nota2" placeholder="Ingrese la segunda nota">
+
+            <label>Nota 3</label>
+            <input type="number" id="nota3" placeholder="Ingrese la tercera nota">
+
+            <button id="calcular">Calcular Promedio</button>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Resultado</h2>
+
+            <p id="promedioTexto"></p>
+            <p id="estadoTexto"></p>
+
+            <button id="cerrarPopup">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+
+</body>
+</html>

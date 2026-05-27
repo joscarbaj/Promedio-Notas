@@ -1,13 +1,14 @@
 {
-  "name": "promedio",
+  "name": "calculadora-promedio-electron",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Calculadora de promedio de notas",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "devDependencies": {
+    "electron": "^37.0.0"
+  }
 }
